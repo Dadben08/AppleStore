@@ -1,46 +1,53 @@
+import Iphone11 from "../../public/assets/images/home/iphone11.png";
+import Iphone11ProMax from "../../public/assets/images/home/iphone11promax.png";
+import Iphone12 from "../../public/assets/images/home/iphone12.png";
+import Iphone12Mini from "../../public/assets/images/home/iphone12mini.png";
+import Iphone12Pro from "../../public/assets/images/home/iphone12pro.png";
+import Iphone12ProMax from "../../public/assets/images/home/iphone12promax.png";
+
 const Data = [
     {
         id: 1,
         title: 'Iphone 11',
         price: 750,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone11promax.png'
+        desc: 'The iPhone 11 features a dual-camera system, a powerful A13 chip, and excellent battery life.',
+        img: Iphone11
     },
     {
         id: 2,
         title: 'Iphone 11 Pro Max',
         price: 800,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone11promax.png'
+        desc: 'The iPhone 11 Pro Max offers a larger display, improved battery life, and a triple-camera setup.',
+        img: Iphone11ProMax
     },
     {
         id: 3,
         title: 'Iphone 12',
         price: 950,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone12.png'
+        desc: 'The iPhone 12 comes with 5G support, a stunning OLED display, and an A14 Bionic chip.',
+        img: Iphone12
     },
     {
         id: 4,
         title: 'Iphone 12 Mini',
         price: 1150,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone12mini.png'
+        desc: 'The compact iPhone 12 Mini delivers high performance in a smaller size with 5G capability.',
+        img: Iphone12Mini
     },
     {
         id: 5,
         title: 'Iphone 12 Pro',
         price: 1150,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone12pro.png'
+        desc: 'The iPhone 12 Pro features a premium design, LiDAR scanner, and exceptional camera performance.',
+        img: Iphone12Pro
     },
     {
         id: 6,
         title: 'Iphone 12 Pro Max',
         price: 1250,
-        desc: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
-        img: '../public/assets/images/home/iphone12promax.png'
+        desc: 'The iPhone 12 Pro Max offers the largest display and best camera system in the iPhone 12 lineup.',
+        img: Iphone12ProMax
     }
-]
+];
 
-export default Data
+export default Data;
