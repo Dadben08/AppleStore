@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react'
-import Data from '../../Data'
+import Data from '../../assets/Data'
 import { useDispatch } from 'react-redux'
 import {addItem, delItem} from '../../redux/actions/index'
 
